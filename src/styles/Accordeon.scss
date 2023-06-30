@@ -1,0 +1,91 @@
+// Variable
+$color: #ff6060;
+
+// Pages Fiches
+.accomodation_collapse {
+    display: flex;
+    gap: 70px;
+    margin: 30px auto;
+    width: 95%;
+
+    &_item {
+        width: 50%;
+    }
+
+}
+
+// Page A Propos
+.collapse__dropdown {
+    margin: auto;
+    width: 67%;
+
+    div .collapse {
+        margin-bottom: 20px;
+    }
+
+}
+
+// Pages Fiches et Page A Propos
+.collapse {
+    margin-top: 30px;
+
+    .collapse_title {
+        display: flex;
+        justify-content: space-between;
+        background-color: $color;
+        color: white;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+
+        .fleche {
+            width: 30px;
+            // Animation 
+            transition: all 0.2s ease-in-out;
+        }
+
+        // Rotation des chevrons
+        .fleche_haut {
+            transform: rotate(180deg);
+        }
+
+        .fleche_bas {
+            transform: rotate(0deg);
+        }
+
+    }
+
+    .contenu_cachee {
+        // Visibilité cachée
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+        
+    .contenu_visible {
+        visibility: visible;
+        opacity: 1;
+        padding: 10px;
+        font-size: 20px;
+        color: $color;
+        // Animation
+        transition: visibility 0.5s ease-in-out,
+        opacity 0.5s ease-in-out,
+        height 0.2s ease-in-out;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    // Pages A Propos
+    .collapse__dropdown {
+        width: 90%;
+    }
+
+}

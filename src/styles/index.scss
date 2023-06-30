@@ -1,0 +1,42 @@
+// Variable
+$color: #ff6060;
+
+// Tous
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+// Page Erreur
+.erreur {
+  font-size: 228px;
+  text-align: center;
+  color: $color;
+  font-weight: bold;
+}
+
+.erreurTexte {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.erreurLien {
+  font-size: 20px;
+  color: $color;
+  font-weight: normal;
+}
