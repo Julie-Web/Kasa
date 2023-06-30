@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Kasa/static/css/main.33fdc784.css",
+    "main.js": "/Kasa/static/js/main.5c7dcb48.js",
+    "static/js/787.cca3b672.chunk.js": "/Kasa/static/js/787.cca3b672.chunk.js",
+    "static/media/about-background.png": "/Kasa/static/media/about-background.ed819f2cc2faefb4fba2.png",
+    "static/media/background-banner.png": "/Kasa/static/media/background-banner.40371f11171ba050e175.png",
+    "static/media/LOGO.svg": "/Kasa/static/media/LOGO.759702e80d2cca5e6d54b41ca6682c02.svg",
+    "static/media/logo-footer.svg": "/Kasa/static/media/logo-footer.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/Kasa/index.html",
+    "static/media/vector-right.svg": "/Kasa/static/media/vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/vector-left.svg": "/Kasa/static/media/vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/etoileCouleur.svg": "/Kasa/static/media/etoileCouleur.6430150c126a3adf92c132c52c9c7428.svg",
+    "static/media/etoileVide.svg": "/Kasa/static/media/etoileVide.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "main.33fdc784.css.map": "/Kasa/static/css/main.33fdc784.css.map",
+    "main.5c7dcb48.js.map": "/Kasa/static/js/main.5c7dcb48.js.map",
+    "787.cca3b672.chunk.js.map": "/Kasa/static/js/787.cca3b672.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33fdc784.css",
+    "static/js/main.5c7dcb48.js"
+  ]
+}
